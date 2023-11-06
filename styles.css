@@ -31,3 +31,7 @@ li {
     color:#ffffff;
     list-style: none;
 }
+
+#about, #gallery {
+    background-color: #ffffff;
+}
