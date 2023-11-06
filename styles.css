@@ -18,4 +18,17 @@ h1 {
     color: #007d7b;
     text-transform: uppercase;
     font-size: 3em;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000;
+    text-transform: uppercase;
+    position: relative;
+}
+
+li {
+    text-align: center;
+    color:#ffffff;
+    list-style: none;
 }
