@@ -5,7 +5,6 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
-    background-color: #ffffff;
     display:grid;
     width: 485px;
 }
