@@ -35,3 +35,9 @@ li {
 main {
     background-color: #ffffff;
 }
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
