@@ -9,8 +9,9 @@
 <body>
     <header>
     <h1>TK Photography</h1>
-</header>
+
 <nav>
+    <h2>Navigation</h2>
     <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#gallery">Gallery</a></li>
@@ -18,6 +19,7 @@
         <li><a href="#top">top</a></li>
     </ul>
 </nav>
+</header>
 <main>
 <section id="about">
     <h2>About</h2>
@@ -83,20 +85,21 @@
     <h2>Contact</h2>
         <p>Please fill out this form and I'll connect with you soon.</p>
 
-<input type="hidden" value="Your contact information">
+<form>      
+<h2>Your contact information</h2>
 <label for="name">Name</label>
-<br>
-<input type="text" name="name" placeholder="Your full name">
+<input type="text" id="name" name="name" placeholder="Your full name">
 <br>
 <label for="email">Email</label>
 <br>
-<input type="email" name="email" placeholder="Enter your email address">
+<input type="email" id="email" name="email" placeholder="Enter your email address">
 <br>
 <label for="message">Message</label>
 <br>
-<input type="text" name="message" placeholder="What can I help you with?">
+<input type="text" id="message" name="message" placeholder="What can I help you with?">
 <br>
-<input type="submit" value="Submit">
+<input type="submit" id="submit" value="Submit">
+</form>
 </section>
 
 </main>
