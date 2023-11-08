@@ -26,10 +26,14 @@ nav {
     position: relative;
 }
 
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+
 li {
     text-align: center;
     color:#ffffff;
-    list-style: none;
 }
 
 main {
