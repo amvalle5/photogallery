@@ -55,8 +55,17 @@ p {
     font-size: 1.25em;
 }
 
+figcaption, label, input, small {
+    font-size: 1em;
+}
+
 [href="#top"] {
     position:fixed;
     bottom: 0px;
     right: 0px;
+}
+
+#contact {
+    background-color: #000000;
+    color:#ffffff;
 }
