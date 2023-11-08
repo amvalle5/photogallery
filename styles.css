@@ -69,3 +69,8 @@ figcaption, label, input, small {
     background-color: #000000;
     color:#ffffff;
 }
+
+footer {
+    color: #ffffff;
+    text-align: center;
+}
