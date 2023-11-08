@@ -87,4 +87,5 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
+    border-radius: 10px;
 }
