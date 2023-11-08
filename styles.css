@@ -20,31 +20,26 @@ h1 {
     text-align: center;
 }
 
-ul {
-    list-style: none;
-    overflow: hidden;
-}
-
-li {
-   list-style: none;
-   display: inline-block;
-   margin: 10px;
-   text-transform: uppercase;
-}
-
 nav h2 {
     visibility: hidden;
     height: 0px;
 }
+nav {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+nav li {
+   
+   display: inline-block;
+   padding-right: 25px;
+}
+
 nav a {
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
-    padding: 10px;
-    font-size: 1.5em;
-    text-align: center;
-    padding: 0;
-    margin: .2em;
+    text-transform: uppercase;
 }
 
 main {
