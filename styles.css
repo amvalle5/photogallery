@@ -32,6 +32,10 @@ li {
    text-transform: uppercase;
 }
 
+nav h2 {
+    visibility: hidden;
+    height: 0px;
+}
 nav a {
     color: #ffffff;
     font-weight: bold;
