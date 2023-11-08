@@ -56,7 +56,8 @@ h2 {
 
 p {
     font-size: 1.25em;
-    margin: .5em;
+    margin: .2em;
+    padding: .5em;
 }
 
 figcaption, label, input, small {
