@@ -96,3 +96,10 @@ input[type=button], input[type=submit], input[type=reset] {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+label {
+    float:left;
+    width: 10em;
+    margin-right: 1em;
+    text-transform: uppercase;
+}
