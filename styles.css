@@ -90,3 +90,9 @@ input[type=button], input[type=submit], input[type=reset] {
     font-weight: bold;
     border-radius: 10px;
 }
+
+::placeholder {
+    color: #007d7b;
+    font-weight: bold;
+    text-transform: uppercase;
+}
