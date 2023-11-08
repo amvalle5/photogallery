@@ -78,3 +78,13 @@ footer {
     color: #ffffff;
     text-align: center;
 }
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #007d7b;
+    border: #ffffff;
+    padding: 5px 70px;
+    margin: 20px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
