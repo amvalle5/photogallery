@@ -54,3 +54,9 @@ h2 {
 p {
     font-size: 1.25em;
 }
+
+[href="top"] {
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+}
