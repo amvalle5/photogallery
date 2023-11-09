@@ -97,7 +97,12 @@ input[type=button], input[type=submit], input[type=reset] {
     text-transform: uppercase;
 }
 
-label {
+form h2 {
+    visibility: hidden;
+    height: 0px;
+}
+
+form label {
     float:left;
     width: 10em;
     margin-right: 1em;
