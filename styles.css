@@ -80,21 +80,10 @@ footer {
     text-align: center;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
-    background-color: #007d7b;
-    border: #ffffff;
-    padding: 5px 70px;
-    margin: 20px 20px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-::placeholder {
-    color: #007d7b;
-    font-weight: bold;
-    text-transform: uppercase;
+form {
+    display:grid;
+    width: 400px;
+    margin: 0 auto;
 }
 
 form h2 {
@@ -103,8 +92,29 @@ form h2 {
 }
 
 form label {
-    float:left;
-    width: 10em;
-    margin-right: 1em;
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+form input {
+    padding: 10px;
+}
+ 
+form input[type="submit"] {
+    background-color: #007d7b;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+::placeholder {
+    color: #007d7b;
+    font-weight: bold;
     text-transform: uppercase;
 }
