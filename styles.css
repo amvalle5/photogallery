@@ -94,8 +94,8 @@ figcaption {
 
 form {
     display:grid;
-    width: 400px;
     margin: 0 auto;
+    padding: 0px 20px;
 }
 
 form h2 {
