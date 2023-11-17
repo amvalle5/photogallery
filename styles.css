@@ -65,7 +65,7 @@ figcaption, label, input, small {
 }
 
 figure {
-    display: flex;
+    display: grid;
 }
 
 figcaption {
