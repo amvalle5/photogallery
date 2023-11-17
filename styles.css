@@ -64,10 +64,21 @@ figcaption, label, input, small {
     font-size: 1em;
 }
 
+figure {
+    display: flex;
+}
+
+figcaption {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 [href="#top"] {
     position:fixed;
-    bottom: 0px;
-    right: 0px;
+    bottom: 5px;
+    right: 5px;
+    border-style:solid;
+    padding: 5px;
 }
 
 #contact {
@@ -75,10 +86,6 @@ figcaption, label, input, small {
     color:#ffffff;
 }
 
-footer {
-    color: #ffffff;
-    text-align: center;
-}
 
 form {
     display:grid;
@@ -117,4 +124,9 @@ form input[type="submit"] {
     color: #007d7b;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
 }
