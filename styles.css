@@ -24,6 +24,7 @@ nav h2 {
     visibility: hidden;
     height: 0px;
 }
+
 nav {
     text-align: center;
     padding-bottom: 15px;
@@ -84,8 +85,12 @@ figcaption {
 #contact {
     background-color: #000000;
     color:#ffffff;
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    padding-bottom: 20px;
 }
-
 
 form {
     display:grid;
