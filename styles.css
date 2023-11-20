@@ -90,6 +90,13 @@ img[src="images/Italy.png"] ~ figcaption {
     bottom: 265px;
 }
 
+img[src="images/Guatemala.png"] ~ figcaption {
+    color: #ffffff;
+}
+
+img[src="images/Iran.png"] ~ figcaption, img[src="images/Ireland.png"] ~ figcaption {
+    bottom: 620px;
+}
 
 [href="#top"] {
     position:fixed;
