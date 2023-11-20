@@ -74,6 +74,23 @@ figcaption {
     text-transform: uppercase;
 }
 
+.bottom {
+    color: #ffffff;
+    position: relative;
+    bottom: 25px;
+}
+
+img[src="images/Italy.png"] ~ figcaption {
+    color: #000000;
+}
+
+.top {
+    color: #000000;
+    position: relative;
+    bottom: 265px;
+}
+
+
 [href="#top"] {
     position:fixed;
     bottom: 5px;
