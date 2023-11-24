@@ -169,3 +169,64 @@ footer {
     text-transform: uppercase;
     padding-left: 50px;
 }
+
+@media screen and (min-width: 880px){
+    gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 880px;
+    }
+   figure {
+        margin: 0px 10px;
+    }
+    body, #contact {
+        width: 880px;
+    }
+    h1 {
+        text-align: left;
+        padding-left: 10px;
+    }
+    p {
+        max-width: 880px;
+    }
+    nav {
+        text-align: center;
+        padding-left: 60px;
+    }
+    form {
+        padding:  0px 70px;
+    }
+    form input[type="submit"] {
+        width: 400px;
+    }
+    footer {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    figure {
+        margin: 0px 6.5px;
+    }
+    body, #contact {
+        width: 1300px;
+    }
+    nav {
+        text-align: right;
+    }
+    p {
+        max-width: 1300px;
+    }
+    form {
+        padding:  0px 130px;
+    }
+    form input[type="submit"] {
+        width: 600px;
+    }
+    footer {
+        padding-left: 100px;
+    }
+}
