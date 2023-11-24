@@ -48,6 +48,10 @@ main {
     background-color: #ffffff;
 }
 
+#about h2 {
+    padding-top: 10px;
+}
+
 h2 {
     font-size: 2em;
     text-align: center;
