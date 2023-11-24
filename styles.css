@@ -171,12 +171,12 @@ footer {
 }
 
 @media screen and (min-width: 880px){
-    gallery {
+    #gallery div {
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 880px;
     }
-   figure {
+   div figure {
         margin: 0px 10px;
     }
     body, #contact {
@@ -205,10 +205,10 @@ footer {
 }
 
 @media screen and (min-width: 1300px) {
-    gallery {
+   #gallery div {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    figure {
+    div figure {
         margin: 0px 6.5px;
     }
     body, #contact {
